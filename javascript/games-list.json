@@ -3,530 +3,775 @@
     "name": "Gun",
     "developer": "Neversoft",
     "releaseDate": "17/11/2005",
-    "beatDate": "12/2019",
-    "beatHours": "5.3",
-    "banner": "media/games/gun-banner.webp",
-    "icon": "media/games/gun-logo.webp"
+    "beat": {
+      "date": "12/2019",
+      "hours": "5.3"
+    },
+    "media": {
+      "banner": "media/games/gun-banner.webp",
+      "icon": "media/games/gun-logo.webp"
+    }
   },
   {
     "name": "Half-Life",
     "developer": "Valve",
     "releaseDate": "08/10/1998",
-    "beatDate": "03/2020",
-    "beatHours": "13.4",
-    "banner": "media/games/half-life-banner.webp",
-    "icon": "media/games/half-life-logo.webp"
+    "beat": {
+      "date": "03/2020",
+      "hours": "13.4"
+    },
+    "media": {
+      "banner": "media/games/half-life-banner.webp",
+      "icon": "media/games/half-life-logo.webp"
+    }
   },
   {
     "name": "Katana ZERO",
     "developer": "Askiisoft",
     "releaseDate": "18/04/2019",
-    "beatDate": "04/2020",
-    "beatHours": "7.6",
-    "banner": "media/games/katana-zero-banner.webp",
-    "icon": "media/games/katana-zero-logo.webp"
+    "beat": {
+      "date": "04/2020",
+      "hours": "7.6"
+    },
+    "media": {
+      "banner": "media/games/katana-zero-banner.webp",
+      "icon": "media/games/katana-zero-logo.webp"
+    }
   },
   {
     "name": "The Crew 2",
     "developer": "Ivory Tower",
     "releaseDate": "29/06/2018",
-    "beatDate": "07/2020",
-    "beatHours": "19.7",
-    "banner": "media/games/the-crew-2-banner.webp",
-    "icon": "media/games/the-crew-2-logo.webp"
+    "beat": {
+      "date": "07/2020",
+      "hours": "19.7"
+    },
+    "media": {
+      "banner": "media/games/the-crew-2-banner.webp",
+      "icon": "media/games/the-crew-2-logo.webp"
+    }
   },
   {
     "name": "Metal Slug 3",
     "developer": "SNK CORPORATION",
     "releaseDate": "14/02/2014",
-    "beatDate": "08/2020",
-    "beatHours": "2.2",
-    "banner": "media/games/metal-slug-3-banner.webp",
-    "icon": "media/games/metal-slug-3-logo.webp"
+    "beat": {
+      "date": "08/2020",
+      "hours": "2.2"
+    },
+    "media": {
+      "banner": "media/games/metal-slug-3-banner.webp",
+      "icon": "media/games/metal-slug-3-logo.webp"
+    }
   },
   {
     "name": "The Room",
     "developer": "Fireproof Games",
     "releaseDate": "28/07/2014",
-    "beatDate": "10/2020",
-    "beatHours": "2.4",
-    "banner": "media/games/the-room-banner.webp",
-    "icon": "media/games/the-room-logo.webp"
+    "beat": {
+      "date": "10/2020",
+      "hours": "2.4"
+    },
+    "media": {
+      "banner": "media/games/the-room-banner.webp",
+      "icon": "media/games/the-room-logo.webp"
+    }
   },
   {
     "name": "Portal",
     "developer": "Valve",
     "releaseDate": "10/09/2007",
-    "beatDate": "10/2020",
-    "beatHours": "2.4",
-    "banner": "media/games/portal-banner.webp",
-    "icon": "media/games/portal-logo.webp"
+    "beat": {
+      "date": "10/2020",
+      "hours": "2.4"
+    },
+    "media": {
+      "banner": "media/games/portal-banner.webp",
+      "icon": "media/games/portal-logo.webp"
+    }
   },
   {
     "name": "Resident Evil 4",
     "developer": "Capcom",
     "releaseDate": "28/02/2014",
-    "beatDate": "11/2020",
-    "beatHours": "16.3",
-    "banner": "media/games/resident-evil-4-banner.webp",
-    "icon": "media/games/resident-evil-4-logo.webp"
+    "beat": {
+      "date": "11/2020",
+      "hours": "16.3"
+    },
+    "media": {
+      "banner": "media/games/resident-evil-4-banner.webp",
+      "icon": "media/games/resident-evil-4-logo.webp"
+    }
   },
   {
     "name": "Need For Speed",
     "developer": "Ghost Games",
     "releaseDate": "15/03/2016",
-    "beatDate": "12/2020",
-    "beatHours": "21",
-    "banner": "media/games/need-for-speed-banner.webp",
-    "icon": "media/games/need-for-speed-logo.webp"
+    "beat": {
+      "date": "12/2020",
+      "hours": "21"
+    },
+    "media": {
+      "banner": "media/games/need-for-speed-banner.webp",
+      "icon": "media/games/need-for-speed-logo.webp"
+    }
   },
   {
     "name": "NARUTO SHIPPUDEN: Ultimate Ninja STORM 4",
     "developer": "CyberConnect2 Co. Ltd.",
     "releaseDate": "04/02/2016",
-    "beatDate": "12/2020",
-    "beatHours": "6.3",
-    "banner": "media/games/naruto-shippuden-ultimate-ninja-storm-4-banner.webp",
-    "icon": "media/games/naruto-shippuden-ultimate-ninja-storm-4-logo.webp"
+    "beat": {
+      "date": "12/2020",
+      "hours": "6.3"
+    },
+    "media": {
+      "banner": "media/games/naruto-shippuden-ultimate-ninja-storm-4-banner.webp",
+      "icon": "media/games/naruto-shippuden-ultimate-ninja-storm-4-logo.webp"
+    }
   },
   {
     "name": "Punch Club",
     "developer": "Lazy Bear Games",
     "releaseDate": "08/01/2016",
-    "beatDate": "12/2020",
-    "beatHours": "17.2",
-    "banner": "media/games/punch-club-banner.webp",
-    "icon": "media/games/punch-club-logo.webp"
+    "beat": {
+      "date": "12/2020",
+      "hours": "17.2"
+    },
+    "media": {
+      "banner": "media/games/punch-club-banner.webp",
+      "icon": "media/games/punch-club-logo.webp"
+    }
   },
   {
     "name": "Portal 2",
     "developer": "Valve",
     "releaseDate": "19/04/2011",
-    "beatDate": "01/2021",
-    "beatHours": "9",
-    "banner": "media/games/portal-2-banner.webp",
-    "icon": "media/games/portal-2-logo.webp"
+    "beat": {
+      "date": "01/2021",
+      "hours": "9"
+    },
+    "media": {
+      "banner": "media/games/portal-2-banner.webp",
+      "icon": "media/games/portal-2-logo.webp"
+    }
   },
   {
     "name": "Far Cry 4",
     "developer": "Ubisoft Montreal, Red Storm, Shanghai, Toronto, Kievr",
     "releaseDate": "18/11/2014",
-    "beatDate": "05/2021",
-    "beatHours": "16.5",
-    "banner": "media/games/far-cry-4-banner.webp",
-    "icon": "media/games/far-cry-4-logo.webp"
+    "beat": {
+      "date": "05/2021",
+      "hours": "16.5"
+    },
+    "media": {
+      "banner": "media/games/far-cry-4-banner.webp",
+      "icon": "media/games/far-cry-4-logo.webp"
+    }
   },
   {
     "name": "CarX Drift Racing Online",
     "developer": "CarX Technologies, LLC",
     "releaseDate": "17/11/2017",
-    "beatDate": "06/2021",
-    "beatHours": "3.7",
-    "banner": "media/games/carx-drift-racing-online-banner.webp",
-    "icon": "media/games/carx-drift-racing-online-logo.webp"
+    "beat": {
+      "date": "06/2021",
+      "hours": "3.7"
+    },
+    "media": {
+      "banner": "media/games/carx-drift-racing-online-banner.webp",
+      "icon": "media/games/carx-drift-racing-online-logo.webp"
+    }
   },
   {
     "name": "Samurai Shodown V Special",
     "developer": "SNK CORPORATION",
     "releaseDate": "18/05/2019",
-    "beatDate": "06/2021",
-    "beatHours": "1.3",
-    "banner": "media/games/samurai-shodown-v-special-banner.webp",
-    "icon": "media/games/samurai-shodown-v-special-logo.webp"
+    "beat": {
+      "date": "06/2021",
+      "hours": "1.3"
+    },
+    "media": {
+      "banner": "media/games/samurai-shodown-v-special-banner.webp",
+      "icon": "media/games/samurai-shodown-v-special-logo.webp"
+    }
   },
   {
     "name": "Street Racing Syndicate",
     "developer": "Eutechnyx",
     "releaseDate": "08/01/2009",
-    "beatDate": "07/2021",
-    "beatHours": "4",
-    "banner": "media/games/street-racing-syndicate-banner.webp",
-    "icon": "media/games/street-racing-syndicate-logo.webp"
+    "beat": {
+      "date": "07/2021",
+      "hours": "4"
+    },
+    "media": {
+      "banner": "media/games/street-racing-syndicate-banner.webp",
+      "icon": "media/games/street-racing-syndicate-logo.webp"
+    }
   },
   {
     "name": "Grand Theft Auto V",
     "developer": "Rockstar North",
     "releaseDate": "14/05/15",
-    "beatDate": "09/2021",
-    "beatHours": "16.8",
-    "banner": "media/games/grand-theft-auto-v-banner.webp",
-    "icon": "media/games/grand-theft-auto-v-logo.webp"
+    "beat": {
+      "date": "09/2021",
+      "hours": "16.8"
+    },
+    "media": {
+      "banner": "media/games/grand-theft-auto-v-banner.webp",
+      "icon": "media/games/grand-theft-auto-v-logo.webp"
+    }
   },
   {
     "name": "Please, Don`t Touch Anything",
     "developer": "Four Quarters",
     "releaseDate": "26/03/15",
-    "beatDate": "10/2021",
-    "beatHours": "0.1",
-    "banner": "media/games/please-dont-touch-anything-banner.webp",
-    "icon": "media/games/please-dont-touch-anything-logo.webp"
+    "beat": {
+      "date": "10/2021",
+      "hours": "0.1"
+    },
+    "media": {
+      "banner": "media/games/please-dont-touch-anything-banner.webp",
+      "icon": "media/games/please-dont-touch-anything-logo.webp"
+    }
   },
   {
     "name": "Grand Theft Auto IV",
     "developer": "Rockstar North, Rockstar Toronto",
     "releaseDate": "29/04/2008",
-    "beatDate": "10/2021",
-    "beatHours": "19.9",
-    "banner": "media/games/grand-theft-auto-iv-banner.webp",
-    "icon": "media/games/grand-theft-auto-iv-logo.webp"
+    "beat": {
+      "date": "10/2021",
+      "hours": "19.9"
+    },
+    "media": {
+      "banner": "media/games/grand-theft-auto-iv-banner.webp",
+      "icon": "media/games/grand-theft-auto-iv-logo.webp"
+    }
   },
   {
     "name": "Sniper: Ghost Warrior",
     "developer": "City Interactive",
     "releaseDate": "24/05/10",
-    "beatDate": "11/2021",
-    "beatHours": "19.7",
-    "banner": "media/games/sniper-ghost-warrior-banner.webp",
-    "icon": "media/games/sniper-ghost-warrior-logo.webp"
+    "beat": {
+      "date": "11/2021",
+      "hours": "19.7"
+    },
+    "media": {
+      "banner": "media/games/sniper-ghost-warrior-banner.webp",
+      "icon": "media/games/sniper-ghost-warrior-logo.webp"
+    }
   },
   {
     "name": "LEGO The Lord of the Rings",
     "developer": "Traveller's Tales",
     "releaseDate": "27/11/2012",
-    "beatDate": "11/2021",
-    "beatHours": "8.3",
-    "banner": "media/games/lego-the-lord-of-the-rings-banner.webp",
-    "icon": "media/games/lego-the-lord-of-the-rings-logo.webp"
+    "beat": {
+      "date": "11/2021",
+      "hours": "8.3"
+    },
+    "media": {
+      "banner": "media/games/lego-the-lord-of-the-rings-banner.webp",
+      "icon": "media/games/lego-the-lord-of-the-rings-logo.webp"
+    }
   },
   {
     "name": "Bully: Scholarship Edition",
     "developer": "Rockstar New England",
     "releaseDate": "21/10/2008",
-    "beatDate": "11/2021",
-    "beatHours": "12.9",
-    "banner": "media/games/bully-scholarship-edition-banner.webp",
-    "icon": "media/games/bully-scholarship-edition-logo.webp"
+    "beat": {
+      "date": "11/2021",
+      "hours": "12.9"
+    },
+    "media": {
+      "banner": "media/games/bully-scholarship-edition-banner.webp",
+      "icon": "media/games/bully-scholarship-edition-logo.webp"
+    }
   },
   {
     "name": "Metal Gear Solid V: The Phanton Pain",
     "developer": "Konami Digital Entertainment",
     "releaseDate": "01/09/2015",
-    "beatDate": "12/2021",
-    "beatHours": "27",
-    "banner": "media/games/metal-gear-solid-v-the-phanton-pain-banner.webp",
-    "icon": "media/games/metal-gear-solid-v-the-phanton-pain-logo.webp"
+    "beat": {
+      "date": "12/2021",
+      "hours": "27"
+    },
+    "media": {
+      "banner": "media/games/metal-gear-solid-v-the-phanton-pain-banner.webp",
+      "icon": "media/games/metal-gear-solid-v-the-phanton-pain-logo.webp"
+    }
   },
   {
     "name": "Metal Gear Solid V: Ground Zeroes",
     "developer": "Konami Digital Entertainment",
     "releaseDate": "18/12/2014",
-    "beatDate": "12/2021",
-    "beatHours": "1.2",
-    "banner": "media/games/metal-gear-solid-v-ground-zeroes-banner.webp",
-    "icon": "media/games/metal-gear-solid-v-ground-zeroes-logo.webp"
+    "beat": {
+      "date": "12/2021",
+      "hours": "1.2"
+    },
+    "media": {
+      "banner": "media/games/metal-gear-solid-v-ground-zeroes-banner.webp",
+      "icon": "media/games/metal-gear-solid-v-ground-zeroes-logo.webp"
+    }
   },
   {
     "name": "Dying Light",
     "developer": "Techland",
     "releaseDate": "26/01/15",
-    "beatDate": "12/2021",
-    "beatHours": "12.3",
-    "banner": "media/games/dying-light-banner.webp",
-    "icon": "media/games/dying-light-logo.webp"
+    "beat": {
+      "date": "12/2021",
+      "hours": "12.3"
+    },
+    "media": {
+      "banner": "media/games/dying-light-banner.webp",
+      "icon": "media/games/dying-light-logo.webp"
+    }
   },
   {
     "name": "The Elder Scrolls V: Skyrim Special Edition",
     "developer": "Bethesda Game Studios",
     "releaseDate": "27/10/16",
-    "beatDate": "12/2021",
-    "beatHours": "36",
-    "banner": "media/games/the-elder-scrolls-v-skyrim-special-edition-banner.webp",
-    "icon": "media/games/the-elder-scrolls-v-skyrim-special-edition-logo.webp"
+    "beat": {
+      "date": "12/2021",
+      "hours": "36"
+    },
+    "media": {
+      "banner": "media/games/the-elder-scrolls-v-skyrim-special-edition-banner.webp",
+      "icon": "media/games/the-elder-scrolls-v-skyrim-special-edition-logo.webp"
+    }
   },
   {
     "name": "My Hero One`s Justice",
     "developer": "Byking Inc.",
     "releaseDate": "25/10/2018",
-    "beatDate": "01/2022",
-    "beatHours": "4.7",
-    "banner": "media/games/my-hero-ones-justice-banner.webp",
-    "icon": "media/games/my-hero-ones-justice-logo.webp"
+    "beat": {
+      "date": "01/2022",
+      "hours": "4.7"
+    },
+    "media": {
+      "banner": "media/games/my-hero-ones-justice-banner.webp",
+      "icon": "media/games/my-hero-ones-justice-logo.webp"
+    }
   },
   {
     "name": "Crono Trigger",
     "developer": "Square Enix",
     "releaseDate": "27/02/2018",
-    "beatDate": "01/2022",
-    "beatHours": "31",
-    "banner": "media/games/crono-trigger-banner.webp",
-    "icon": "media/games/crono-trigger-logo.webp"
+    "beat": {
+      "date": "01/2022",
+      "hours": "31"
+    },
+    "media": {
+      "banner": "media/games/crono-trigger-banner.webp",
+      "icon": "media/games/crono-trigger-logo.webp"
+    }
   },
   {
     "name": "Metal Gear Rising: Revengeance",
     "developer": "PlatinumGames",
     "releaseDate": "09/01/2014",
-    "beatDate": "02/2022",
-    "beatHours": "9.4",
-    "banner": "media/games/metal-gear-rising-revengeance-banner.webp",
-    "icon": "media/games/metal-gear-rising-revengeance-logo.webp"
+    "beat": {
+      "date": "02/2022",
+      "hours": "9.4"
+    },
+    "media": {
+      "banner": "media/games/metal-gear-rising-revengeance-banner.webp",
+      "icon": "media/games/metal-gear-rising-revengeance-logo.webp"
+    }
   },
   {
     "name": "God of War",
     "developer": "Santa Monica Studio",
     "releaseDate": "14/01/2022",
-    "beatDate": "02/2022",
-    "beatHours": "19.3",
+    "beat": {
+      "date": "02/2022",
+      "hours": "19.3"
+    },
     "platinum": {
       "date": "06/2022",
       "hours": "62"
     },
-    "banner": "media/games/god-of-war-banner.webp",
-    "icon": "media/games/god-of-war-logo.webp"
+    "media": {
+      "banner": "media/games/god-of-war-banner.webp",
+      "icon": "media/games/god-of-war-logo.webp"
+    }
   },
   {
     "name": "Resident Evil 2",
     "developer": "CAPCOM Co., Ltd.",
     "releaseDate": "25/01/2019",
-    "beatDate": "07/2022",
-    "beatHours": "8.2",
-    "banner": "media/games/resident-evil-2-banner.webp",
-    "icon": "media/games/resident-evil-2-logo.webp"
+    "beat": {
+      "date": "07/2022",
+      "hours": "8.2"
+    },
+    "media": {
+      "banner": "media/games/resident-evil-2-banner.webp",
+      "icon": "media/games/resident-evil-2-logo.webp"
+    }
   },
   {
     "name": "Skate 3",
     "developer": "EA Black Box",
     "releaseDate": "11/05/2010",
-    "beatDate": "03/2022",
-    "beatHours": "7.7",
-    "banner": "media/games/skate-3-banner.webp",
-    "icon": "media/games/skate-3-logo.webp"
+    "beat": {
+      "date": "03/2022",
+      "hours": "7.7"
+    },
+    "media": {
+      "banner": "media/games/skate-3-banner.webp",
+      "icon": "media/games/skate-3-logo.webp"
+    }
   },
   {
     "name": "Guitar Hero III: Legends of Rock",
     "developer": "Neversoft",
     "releaseDate": "28/10/2007",
-    "beatDate": "06/2022",
-    "beatHours": "6.3",
-    "banner": "media/games/guitar-hero-iii-legends-of-rock-banner.webp",
-    "icon": "media/games/guitar-hero-iii-legends-of-rock-logo.webp"
+    "beat": {
+      "date": "06/2022",
+      "hours": "6.3"
+    },
+    "media": {
+      "banner": "media/games/guitar-hero-iii-legends-of-rock-banner.webp",
+      "icon": "media/games/guitar-hero-iii-legends-of-rock-logo.webp"
+    }
   },
   {
     "name": "Minecraft",
     "developer": "Mojang Studios",
     "releaseDate": "18/11/2011",
-    "beatDate": "07/2022",
-    "beatHours": "26.1",
-    "banner": "media/games/minecraft-banner.webp",
-    "icon": "media/games/minecraft-logo.webp"
+    "beat": {
+      "date": "07/2022",
+      "hours": "26.1"
+    },
+    "media": {
+      "banner": "media/games/minecraft-banner.webp",
+      "icon": "media/games/minecraft-logo.webp"
+    }
   },
   {
     "name": "Red Dead Redemption 2",
     "developer": "Rockstar Games",
     "releaseDate": "05/12/2019",
-    "beatDate": "11/2022",
-    "beatHours": "34",
-    "banner": "media/games/red-dead-redemption-2-banner.webp",
-    "icon": "media/games/red-dead-redemption-2-logo.webp"
+    "beat": {
+      "date": "11/2022",
+      "hours": "34"
+    },
+    "media": {
+      "banner": "media/games/red-dead-redemption-2-banner.webp",
+      "icon": "media/games/red-dead-redemption-2-logo.webp"
+    }
   },
   {
     "name": "Call of Duty: Modern Warfare 2 (2009)",
     "developer": "Infinity Ward",
     "releaseDate": "12/11/2009",
-    "beatDate": "12/2022",
-    "beatHours": "4.7",
-    "banner": "media/games/call-of-duty-modern-warfare-2-2009-banner.webp",
-    "icon": "media/games/call-of-duty-modern-warfare-2-2009-logo.webp"
+    "beat": {
+      "date": "12/2022",
+      "hours": "4.7"
+    },
+    "media": {
+      "banner": "media/games/call-of-duty-modern-warfare-2-2009-banner.webp",
+      "icon": "media/games/call-of-duty-modern-warfare-2-2009-logo.webp"
+    }
   },
   {
     "name": "Need for Speed™ Payback",
     "developer": "Ghost Games",
     "releaseDate": "06/11/2017",
-    "beatDate": "12/2022",
-    "beatHours": "15.5",
-    "banner": "media/games/need-for-speed-payback-banner.webp",
-    "icon": "media/games/need-for-speed-payback-logo.webp"
+    "beat": {
+      "date": "12/2022",
+      "hours": "15.5"
+    },
+    "media": {
+      "banner": "media/games/need-for-speed-payback-banner.webp",
+      "icon": "media/games/need-for-speed-payback-logo.webp"
+    }
   },
   {
     "name": "The Witcher® 3: Wild Hunt",
     "developer": "CD PROJEKT RED",
     "releaseDate": "18/03/2015",
-    "beatDate": "12/2022",
-    "beatHours": "34",
-    "banner": "media/games/the-witcher-3-wild-hunt-banner.webp",
-    "icon": "media/games/the-witcher-3-wild-hunt-logo.webp"
+    "beat": {
+      "date": "12/2022",
+      "hours": "34"
+    },
+    "media": {
+      "banner": "media/games/the-witcher-3-wild-hunt-banner.webp",
+      "icon": "media/games/the-witcher-3-wild-hunt-logo.webp"
+    }
   },
   {
     "name": "Plants vs. Zombies",
     "developer": "PopCap Games",
     "releaseDate": "05/05/2009",
-    "beatDate": "01/2023",
-    "beatHours": "6.8",
-    "banner": "media/games/plants-vs-zombies-banner.webp",
-    "icon": "media/games/plants-vs-zombies-logo.webp"
+    "beat": {
+      "date": "01/2023",
+      "hours": "6.8"
+    },
+    "media": {
+      "banner": "media/games/plants-vs-zombies-banner.webp",
+      "icon": "media/games/plants-vs-zombies-logo.webp"
+    }
   },
   {
     "name": "Grand Theft Auto: San Andreas",
     "developer": "Rockstar Games",
     "releaseDate": "06/06/2005",
-    "beatDate": "01/2023",
-    "beatHours": "12.8",
-    "banner": "media/games/grand-theft-auto-san-andreas-banner.webp",
-    "icon": "media/games/grand-theft-auto-san-andreas-logo.webp"
+    "beat": {
+      "date": "01/2023",
+      "hours": "12.8"
+    },
+    "media": {
+      "banner": "media/games/grand-theft-auto-san-andreas-banner.webp",
+      "icon": "media/games/grand-theft-auto-san-andreas-logo.webp"
+    }
   },
   {
     "name": "The Last of Us™ Part I",
     "developer": "Naughty Dog",
     "releaseDate": "28/03/2023",
-    "beatDate": "04/2023",
-    "beatHours": "9.7",
+    "beat": {
+      "date": "04/2023",
+      "hours": "9.7"
+    },
     "platinum": {
       "date": "05/2026",
       "hours": "37"
     },
-    "banner": "media/games/the-last-of-us-part-i-banner.webp",
-    "icon": "media/games/the-last-of-us-part-i-logo.webp"
+    "media": {
+      "banner": "media/games/the-last-of-us-part-i-banner.webp",
+      "icon": "media/games/the-last-of-us-part-i-logo.webp"
+    }
   },
   {
     "name": "Half-Life 2",
     "developer": "Valve",
     "releaseDate": "16/11/2004",
-    "beatDate": "04/2023",
-    "beatHours": "12.1",
-    "banner": "media/games/half-life-2-banner.webp",
-    "icon": "media/games/half-life-2-logo.webp"
+    "beat": {
+      "date": "04/2023",
+      "hours": "12.1"
+    },
+    "media": {
+      "banner": "media/games/half-life-2-banner.webp",
+      "icon": "media/games/half-life-2-logo.webp"
+    }
   },
   {
     "name": "Max Payne",
     "developer": "Remedy Entertainment",
     "releaseDate": "25/07/2001",
-    "beatDate": "06/2023",
-    "beatHours": "7.4",
-    "banner": "media/games/max-payne-banner.webp",
-    "icon": "media/games/max-payne-logo.webp"
+    "beat": {
+      "date": "06/2023",
+      "hours": "7.4"
+    },
+    "media": {
+      "banner": "media/games/max-payne-banner.webp",
+      "icon": "media/games/max-payne-logo.webp"
+    }
   },
   {
     "name": "Horizon Chase Turbo",
     "developer": "AQUIRIS",
     "releaseDate": "15/05/2018",
-    "beatDate": "07/2023",
-    "beatHours": "10.1",
-    "banner": "media/games/horizon-chase-turbo-banner.webp",
-    "icon": "media/games/horizon-chase-turbo-logo.webp"
+    "beat": {
+      "date": "07/2023",
+      "hours": "10.1"
+    },
+    "media": {
+      "banner": "media/games/horizon-chase-turbo-banner.webp",
+      "icon": "media/games/horizon-chase-turbo-logo.webp"
+    }
   },
   {
     "name": "Manhunt",
     "developer": "Rockstar North",
     "releaseDate": "20/04/2004",
-    "beatDate": "07/2023",
-    "beatHours": "9.2",
-    "banner": "media/games/manhunt-banner.webp",
-    "icon": "media/games/manhunt-logo.webp"
+    "beat": {
+      "date": "07/2023",
+      "hours": "9.2"
+    },
+    "media": {
+      "banner": "media/games/manhunt-banner.webp",
+      "icon": "media/games/manhunt-logo.webp"
+    }
   },
   {
     "name": "LEGO® Star Wars™ - The Complete Saga",
     "developer": "Traveller's Tales",
     "releaseDate": "12/11/2009",
-    "beatDate": "07/2023",
-    "beatHours": "13.5",
-    "banner": "media/games/lego-star-wars-the-complete-saga-banner.webp",
-    "icon": "media/games/lego-star-wars-the-complete-saga-logo.webp"
+    "beat": {
+      "date": "07/2023",
+      "hours": "13.5"
+    },
+    "media": {
+      "banner": "media/games/lego-star-wars-the-complete-saga-banner.webp",
+      "icon": "media/games/lego-star-wars-the-complete-saga-logo.webp"
+    }
   },
   {
     "name": "Assassin's Creed™",
     "developer": "Ubisoft Montreal",
     "releaseDate": "09/04/2009",
-    "beatDate": "08/2023",
-    "beatHours": "12.3",
-    "banner": "media/games/assassins-creed-banner.webp",
-    "icon": "media/games/assassins-creed-logo.webp"
+    "beat": {
+      "date": "08/2023",
+      "hours": "12.3"
+    },
+    "media": {
+      "banner": "media/games/assassins-creed-banner.webp",
+      "icon": "media/games/assassins-creed-logo.webp"
+    }
   },
   {
     "name": "Akane",
     "developer": "Ludic Studios",
     "releaseDate": "10/09/2018",
-    "beatDate": "10/2023",
-    "beatHours": "2.5",
-    "banner": "media/games/akane-banner.webp",
-    "icon": "media/games/akane-logo.webp"
+    "beat": {
+      "date": "10/2023",
+      "hours": "2.5"
+    },
+    "media": {
+      "banner": "media/games/akane-banner.webp",
+      "icon": "media/games/akane-logo.webp"
+    }
   },
   {
     "name": "Call of Duty®: Modern Warfare® II",
     "developer": "Infinity Ward",
     "releaseDate": "28/10/2022",
-    "beatDate": "10/2023",
-    "beatHours": "5.2",
-    "banner": "media/games/call-of-duty-modern-warfare-ii-banner.webp",
-    "icon": "media/games/call-of-duty-modern-warfare-ii-logo.webp"
+    "beat": {
+      "date": "10/2023",
+      "hours": "5.2"
+    },
+    "media": {
+      "banner": "media/games/call-of-duty-modern-warfare-ii-banner.webp",
+      "icon": "media/games/call-of-duty-modern-warfare-ii-logo.webp"
+    }
   },
   {
     "name": "Marvel's Spider-Man Remastered",
     "developer": "Insomniac Games",
     "releaseDate": "12/08/2022",
-    "beatDate": "11/2023",
-    "beatHours": "9",
-    "banner": "media/games/marvels-spider-man-remastered-banner.webp",
-    "icon": "media/games/marvels-spider-man-remastered-logo.webp"
+    "beat": {
+      "date": "11/2023",
+      "hours": "9"
+    },
+    "media": {
+      "banner": "media/games/marvels-spider-man-remastered-banner.webp",
+      "icon": "media/games/marvels-spider-man-remastered-logo.webp"
+    }
   },
   {
     "name": "Pokémon FireRed",
     "developer": "Game Freak",
     "releaseDate": "29/01/2004",
-    "beatDate": "12/2023",
-    "beatHours": "20",
-    "banner": "media/games/pokemon-firered-banner.webp",
-    "icon": "media/games/pokemon-firered-logo.webp"
+    "beat": {
+      "date": "12/2023",
+      "hours": "20"
+    },
+    "media": {
+      "banner": "media/games/pokemon-firered-banner.webp",
+      "icon": "media/games/pokemon-firered-logo.webp"
+    }
   },
   {
     "name": "The Forest",
     "developer": "Endnight Games Ltd",
     "releaseDate": "30/04/2018",
-    "beatDate": "01/2024",
-    "beatHours": "21",
-    "banner": "media/games/the-forest-banner.webp",
-    "icon": "media/games/the-forest-logo.webp"
+    "beat": {
+      "date": "01/2024",
+      "hours": "21"
+    },
+    "media": {
+      "banner": "media/games/the-forest-banner.webp",
+      "icon": "media/games/the-forest-logo.webp"
+    }
   },
   {
     "name": "Agent A: A puzzle in disguise",
     "developer": "Yak & Co",
     "releaseDate": "29/08/2019",
-    "beatDate": "01/2024",
-    "beatHours": "4.2",
-    "banner": "media/games/agent-a-a-puzzle-in-disguise-banner.webp",
-    "icon": "media/games/agent-a-a-puzzle-in-disguise-logo.webp"
+    "beat": {
+      "date": "01/2024",
+      "hours": "4.2"
+    },
+    "media": {
+      "banner": "media/games/agent-a-a-puzzle-in-disguise-banner.webp",
+      "icon": "media/games/agent-a-a-puzzle-in-disguise-logo.webp"
+    }
   },
   {
     "name": "Sniper Elite 4",
     "developer": "Rebellion",
     "releaseDate": "13/02/2017",
-    "beatDate": "02/2024",
-    "beatHours": "7.6",
-    "banner": "media/games/sniper-elite-4-banner.webp",
-    "icon": "media/games/sniper-elite-4-logo.webp"
+    "beat": {
+      "date": "02/2024",
+      "hours": "7.6"
+    },
+    "media": {
+      "banner": "media/games/sniper-elite-4-banner.webp",
+      "icon": "media/games/sniper-elite-4-logo.webp"
+    }
   },
   {
     "name": "Stardew Valley",
     "developer": "ConcernedApe",
     "releaseDate": "26/02/2016",
-    "beatDate": "05/2024",
-    "beatHours": "31.8",
-    "banner": "media/games/stardew-valley-banner.webp",
-    "icon": "media/games/stardew-valley-logo.webp"
+    "beat": {
+      "date": "05/2024",
+      "hours": "31.8"
+    },
+    "media": {
+      "banner": "media/games/stardew-valley-banner.webp",
+      "icon": "media/games/stardew-valley-logo.webp"
+    }
   },
   {
     "name": "Mortal Shell",
     "developer": "Cold Symmetry",
     "releaseDate": "18/08/2021",
-    "beatDate": "07/2024",
-    "beatHours": "8.8",
-    "banner": "media/games/mortal-shell-banner.webp",
-    "icon": "media/games/mortal-shell-logo.webp"
+    "beat": {
+      "date": "07/2024",
+      "hours": "8.8"
+    },
+    "media": {
+      "banner": "media/games/mortal-shell-banner.webp",
+      "icon": "media/games/mortal-shell-logo.webp"
+    }
   },
   {
     "name": "The Last of Us Part II",
     "developer": "Naughty Dog",
     "releaseDate": "03/04/2025",
-    "beatDate": "12/2025",
-    "beatHours": "22.7",
-    "banner": "media/games/the-last-of-us-part-ii-banner.webp",
-    "icon": "media/games/the-last-of-us-part-ii-logo.webp"
+    "beat": {
+      "date": "12/2025",
+      "hours": "22.7"
+    },
+    "media": {
+      "banner": "media/games/the-last-of-us-part-ii-banner.webp",
+      "icon": "media/games/the-last-of-us-part-ii-logo.webp"
+    }
   },
   {
     "name": "Max Payne 2: The Fall of Max Payne",
     "developer": "Remedy Entertainment",
     "releaseDate": "14/10/2003",
-    "beatDate": "03/2026",
-    "beatHours": "4.7",
-    "banner": "media/games/max-payne-2-banner.webp",
-    "icon": "media/games/max-payne-2-logo.webp"
+    "beat": {
+      "date": "03/2026",
+      "hours": "4.7"
+    },
+    "media": {
+      "banner": "media/games/max-payne-2-banner.webp",
+      "icon": "media/games/max-payne-2-logo.webp"
+    }
+  },
+  {
+    "name": "Astro Bot",
+    "developer": "Team Asobi",
+    "releaseDate": "06/09/2024",
+    "beat": {
+      "date": "08/2026",
+      "hours": "13"
+    },
+    "media": {
+      "banner": "media/games/astro-bot-banner.webp",
+      "icon": "media/games/astro-bot-logo.webp"
+    }
   }
 ]

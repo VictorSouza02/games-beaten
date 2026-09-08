@@ -14,8 +14,8 @@ function escapeHtml(str) {
     .replace(/'/g, "&#39;");
 }
 
-function parseBeatDate(beatDateStr) {
-  const parts = String(beatDateStr).trim().split(/[/-]/);
+function parseBeat(beat) {
+  const parts = String(beat).trim().split(/[/-]/);
   const month = parseInt(parts[0], 10) || 1;
   const year = parseInt(parts[1], 10) || 0;
   return new Date(year, month - 1, 1).getTime();
@@ -24,11 +24,11 @@ function parseBeatDate(beatDateStr) {
 function preloadFirstBanner() {
   if (gamesList.length === 0) return;
   const first = gamesList[0];
-  if (!first || !first.banner) return;
+  if (!first || !first.media.banner) return;
   const link = document.createElement("link");
   link.rel = "preload";
   link.as = "image";
-  link.href = first.banner;
+  link.href = first.media.banner;
   document.head.appendChild(link);
 }
 
@@ -38,7 +38,7 @@ const loadJSON = async () => {
     if (!response.ok) throw new Error("Failed to load JSON");
     const data = await response.json();
     gamesList = data.sort(
-      (a, b) => parseBeatDate(b.beatDate) - parseBeatDate(a.beatDate),
+      (a, b) => parseBeat(b.beat.date) - parseBeat(a.beat.date),
     );
     preloadFirstBanner();
     initializeGrid();
@@ -94,8 +94,8 @@ const MONTHS_EN = [
   "December",
 ];
 
-function formatBeatDateEn(beatDateStr) {
-  const parts = String(beatDateStr).trim().split(/[/-]/);
+function formatBeat(beat) {
+  const parts = String(beat).trim().split(/[/-]/);
   const month = parseInt(parts[0], 10);
   const year = parts[1] || new Date().getFullYear();
   const monthName = MONTHS_EN[month - 1] || MONTHS_EN[0];
@@ -129,21 +129,21 @@ const initializeGrid = () => {
 };
 
 const renderCard = (game, index, staggerIndex = 0) => {
-  const beatDateEn = formatBeatDateEn(game.beatDate);
+  const beatEn = formatBeat(game.beat.date);
   const name = escapeHtml(game.name);
   const developer = escapeHtml(game.developer);
   const releaseDate = escapeHtml(game.releaseDate);
-  const beatDateEsc = escapeHtml(beatDateEn);
-  const beatHours = escapeHtml(game.beatHours);
-  const banner = escapeHtml(game.banner);
-  const icon = escapeHtml(game.icon);
+  const beatEsc = escapeHtml(beatEn);
+  const hours = escapeHtml(game.beat.hours);
+  const banner = escapeHtml(game.media.banner);
+  const icon = escapeHtml(game.media.icon);
   const isPlatinum = hasPlatinum(game);
   const platinumDateEsc = isPlatinum
-    ? escapeHtml(formatBeatDateEn(game.platinum.date))
+    ? escapeHtml(formatBeat(game.platinum.date))
     : "";
   const platinumHoursEsc = isPlatinum
     ? escapeHtml(
-        `${game.beatHours} hours - ${game.platinum.hours} hours (100%)`,
+        `${game.beat.hours} hours - ${game.platinum.hours} hours (100%)`,
       )
     : "";
   const isFirst = index === 0;
@@ -164,8 +164,8 @@ const renderCard = (game, index, staggerIndex = 0) => {
           <div class="back-side-beated">
             <div class="back-side-beated-shine"></div>
             <span class="back-side-beated-label">Beated</span>
-            <span class="back-side-beated-date">${beatDateEsc}</span>
-            <span class="back-side-beated-hours">${beatHours} hours</span>
+            <span class="back-side-beated-date">${beatEsc}</span>
+            <span class="back-side-beated-hours">${hours} hours</span>
           </div>`;
   const internalCard = `
     <div class="internal-card">
