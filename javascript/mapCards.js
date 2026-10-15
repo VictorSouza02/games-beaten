@@ -205,15 +205,13 @@ const renderCard = (game, index, staggerIndex = 0) => {
 };
 
 // The electric border filter is costly; only animate it while a platinum
-// card is on screen, the tab is visible and motion is allowed.
+// card is on screen and the tab is visible.
 const platinumDefs = document.querySelector(".platinum-svg-defs");
-const reducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)");
 const visiblePlatinum = new Set();
 
 function updatePlatinumAnimation() {
   if (!platinumDefs) return;
-  const shouldRun =
-    visiblePlatinum.size > 0 && !document.hidden && !reducedMotion.matches;
+  const shouldRun = visiblePlatinum.size > 0 && !document.hidden;
   if (shouldRun) platinumDefs.unpauseAnimations();
   else platinumDefs.pauseAnimations();
 }
@@ -227,7 +225,6 @@ const platinumObserver = new IntersectionObserver((entries) => {
 });
 
 document.addEventListener("visibilitychange", updatePlatinumAnimation);
-reducedMotion.addEventListener("change", updatePlatinumAnimation);
 updatePlatinumAnimation();
 
 const cardObserver = new IntersectionObserver(
