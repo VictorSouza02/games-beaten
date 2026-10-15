@@ -37,9 +37,9 @@ const loadJSON = async () => {
     const response = await fetch("./javascript/games-list.json");
     if (!response.ok) throw new Error("Failed to load JSON");
     const data = await response.json();
-    gamesList = data.sort(
-      (a, b) => parseBeat(b.beat.date) - parseBeat(a.beat.date),
-    );
+    gamesList = data
+      .filter((game) => !game.hidden)
+      .sort((a, b) => parseBeat(b.beat.date) - parseBeat(a.beat.date));
     preloadFirstBanner();
     initializeGrid();
   } catch (error) {
@@ -163,7 +163,7 @@ const renderCard = (game, index, staggerIndex = 0) => {
     : `
           <div class="back-side-beated">
             <div class="back-side-beated-shine"></div>
-            <span class="back-side-beated-label">Beated</span>
+            <span class="back-side-beated-label">Beaten</span>
             <span class="back-side-beated-date">${beatEsc}</span>
             <span class="back-side-beated-hours">${hours} hours</span>
           </div>`;
