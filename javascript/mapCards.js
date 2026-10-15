@@ -204,6 +204,32 @@ const renderCard = (game, index, staggerIndex = 0) => {
 `;
 };
 
+// The electric border filter is costly; only animate it while a platinum
+// card is on screen, the tab is visible and motion is allowed.
+const platinumDefs = document.querySelector(".platinum-svg-defs");
+const reducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)");
+const visiblePlatinum = new Set();
+
+function updatePlatinumAnimation() {
+  if (!platinumDefs) return;
+  const shouldRun =
+    visiblePlatinum.size > 0 && !document.hidden && !reducedMotion.matches;
+  if (shouldRun) platinumDefs.unpauseAnimations();
+  else platinumDefs.pauseAnimations();
+}
+
+const platinumObserver = new IntersectionObserver((entries) => {
+  entries.forEach((entry) => {
+    if (entry.isIntersecting) visiblePlatinum.add(entry.target);
+    else visiblePlatinum.delete(entry.target);
+  });
+  updatePlatinumAnimation();
+});
+
+document.addEventListener("visibilitychange", updatePlatinumAnimation);
+reducedMotion.addEventListener("change", updatePlatinumAnimation);
+updatePlatinumAnimation();
+
 const cardObserver = new IntersectionObserver(
   (entries) => {
     entries.forEach((entry) => {
@@ -218,6 +244,9 @@ const cardObserver = new IntersectionObserver(
       const card = placeholder.nextElementSibling;
       cardObserver.unobserve(placeholder);
       placeholder.remove();
+      if (card.classList.contains("game-card--platinum")) {
+        platinumObserver.observe(card);
+      }
       requestAnimationFrame(() => card.classList.add("card-visible"));
     });
   },

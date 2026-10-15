@@ -71,6 +71,7 @@ main {
     opacity 0.4s ease,
     transform 0.4s ease;
   cursor: pointer;
+  contain: layout style;
 }
 
 .game-card.card-visible {
@@ -262,7 +263,6 @@ main {
   margin-top: 12px;
   padding: 12px 14px;
   border-radius: 10px;
-  overflow: hidden;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -276,19 +276,42 @@ main {
     #f8eeb8 75%,
     #b8860b 100%
   );
-  background-size: 200% 200%;
   box-shadow:
     0 0 20px rgba(212, 175, 55, 0.5),
     0 0 40px rgba(184, 134, 11, 0.25),
     inset 0 1px 0 rgba(255, 255, 255, 0.4),
     0 2px 8px rgba(0, 0, 0, 0.2);
   border: 1px solid rgba(255, 255, 255, 0.35);
-  animation: beated-glow 4s ease-in-out infinite;
+}
+
+.back-side-beated::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  box-shadow:
+    0 0 26px rgba(212, 175, 55, 0.35),
+    0 0 50px rgba(184, 134, 11, 0.25);
+  opacity: 0;
+  pointer-events: none;
+  animation: beated-glow 4s ease-in-out infinite paused;
 }
 
 .back-side-beated-shine {
   position: absolute;
   inset: 0;
+  border-radius: inherit;
+  overflow: hidden;
+  pointer-events: none;
+}
+
+.back-side-beated-shine::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 200%;
+  height: 100%;
   background: linear-gradient(
     105deg,
     transparent 0%,
@@ -299,9 +322,8 @@ main {
     transparent 60%,
     transparent 100%
   );
-  background-size: 200% 100%;
-  animation: beated-shine 3s ease-in-out infinite;
-  pointer-events: none;
+  transform: translateX(-100%);
+  animation: beated-shine 3s ease-in-out infinite paused;
 }
 
 .back-side-beated-label {
@@ -341,31 +363,26 @@ main {
 }
 
 @keyframes beated-glow {
-  0%,
-  100% {
-    box-shadow:
-      0 0 20px rgba(212, 175, 55, 0.5),
-      0 0 40px rgba(184, 134, 11, 0.25),
-      inset 0 1px 0 rgba(255, 255, 255, 0.4),
-      0 2px 8px rgba(0, 0, 0, 0.2);
-  }
   50% {
-    box-shadow:
-      0 0 26px rgba(212, 175, 55, 0.6),
-      0 0 50px rgba(184, 134, 11, 0.35),
-      inset 0 1px 0 rgba(255, 255, 255, 0.5),
-      0 2px 8px rgba(0, 0, 0, 0.2);
+    opacity: 1;
   }
 }
 
 @keyframes beated-shine {
   0%,
   100% {
-    background-position: 200% 0;
+    transform: translateX(-100%);
   }
   50% {
-    background-position: -100% 0;
+    transform: translateX(50%);
   }
+}
+
+/* Back-side animations only run while the back side is showing */
+.game-card.card-flipped .back-side-beated::after,
+.game-card.card-flipped .back-side-beated-shine::before,
+.game-card.card-flipped .back-side-platinum-shine::before {
+  animation-play-state: running;
 }
 
 .platinum-svg-defs {
@@ -444,7 +461,6 @@ main {
   box-sizing: border-box;
   background: transparent;
   filter: url(#turbulent-displace-card);
-  will-change: filter;
 }
 
 .game-card--platinum .internal-card {
@@ -463,7 +479,6 @@ main {
   margin-top: 12px;
   padding: 12px 14px;
   border-radius: 10px;
-  overflow: hidden;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -483,6 +498,18 @@ main {
 .back-side-platinum-shine {
   position: absolute;
   inset: 0;
+  border-radius: inherit;
+  overflow: hidden;
+  pointer-events: none;
+}
+
+.back-side-platinum-shine::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 200%;
+  height: 100%;
   background: linear-gradient(
     105deg,
     transparent 0%,
@@ -493,9 +520,8 @@ main {
     transparent 60%,
     transparent 100%
   );
-  background-size: 200% 100%;
-  animation: beated-shine 3s ease-in-out infinite;
-  pointer-events: none;
+  transform: translateX(-100%);
+  animation: beated-shine 3s ease-in-out infinite paused;
 }
 
 .back-side-platinum-badge {
@@ -532,33 +558,11 @@ main {
 }
 
 @media (prefers-reduced-motion: reduce) {
-  .game-card,
-  .game-card.card-visible,
-  .internal-card,
-  .front-side,
-  .back-side-beated,
-  .back-side-beated-shine,
-  .back-side-platinum-shine,
-  .platinum-svg-defs animate {
+  .back-side-beated::after,
+  .back-side-beated-shine::before,
+  .back-side-platinum-shine::before {
     animation: none !important;
   }
-  .back-side-beated {
-    animation: none;
-  }
-  .back-side-beated-shine,
-  .back-side-platinum-shine {
-    animation: none;
-  }
-}
-
-#section-divider {
-  width: 55%;
-  margin: 5% auto;
-  text-align: center;
-  padding: 10px 0;
-  border-radius: 15px;
-  background-color: rgba(0, 0, 0, 0.5);
-  box-shadow: 2px 2px 9px rgba(271, 271, 271, 0.2);
 }
 
 ::-webkit-scrollbar {
@@ -604,9 +608,14 @@ main {
     padding: 20px 16px;
   }
 
-  .game-card:hover .internal-card,
-  .game-card--platinum:hover .internal-card {
+  .game-card:hover .internal-card {
     transform: rotateY(180deg);
+  }
+
+  .game-card:hover .back-side-beated::after,
+  .game-card:hover .back-side-beated-shine::before,
+  .game-card:hover .back-side-platinum-shine::before {
+    animation-play-state: running;
   }
 
   .game-card:hover .front-side {

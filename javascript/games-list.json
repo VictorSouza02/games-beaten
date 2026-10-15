@@ -773,5 +773,18 @@
       "banner": "media/games/astro-bot-banner.webp",
       "icon": "media/games/astro-bot-logo.webp"
     }
+  },
+  {
+    "name": "Gran Turismo 7",
+    "developer": "Polyphony Digital",
+    "releaseDate": "04/03/2022",
+    "beat": {
+      "date": "10/2026",
+      "hours": "25"
+    },
+    "media": {
+      "banner": "media/games/gran-turismo-7-banner.webp",
+      "icon": "media/games/gran-turismo-7-logo.webp"
+    }
   }
 ]
