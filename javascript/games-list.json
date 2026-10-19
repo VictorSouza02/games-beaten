@@ -814,5 +814,18 @@
       "banner": "media/games/grand-theft-auto-vice-city-banner.webp",
       "icon": "media/games/grand-theft-auto-vice-city-logo.webp"
     }
+  },
+  {
+    "name": "Black",
+    "developer": "Criterion Games",
+    "releaseDate": "24/02/2006",
+    "beat": {
+      "date": "10/2026",
+      "hours": "4.3"
+    },
+    "media": {
+      "banner": "media/games/black-banner.webp",
+      "icon": "media/games/black-logo.webp"
+    }
   }
 ]
