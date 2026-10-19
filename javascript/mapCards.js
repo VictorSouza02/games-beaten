@@ -38,8 +38,14 @@ const loadJSON = async () => {
     if (!response.ok) throw new Error("Failed to load JSON");
     const data = await response.json();
     gamesList = data
-      .filter((game) => !game.hidden)
-      .sort((a, b) => parseBeat(b.beat.date) - parseBeat(a.beat.date));
+      .map((game, index) => ({ game, index }))
+      .filter(({ game }) => !game.hidden)
+      .sort((a, b) => {
+        const byDate = parseBeat(b.game.beat.date) - parseBeat(a.game.beat.date);
+        if (byDate !== 0) return byDate;
+        return b.index - a.index;
+      })
+      .map(({ game }) => game);
     preloadFirstBanner();
     initializeGrid();
   } catch (error) {
