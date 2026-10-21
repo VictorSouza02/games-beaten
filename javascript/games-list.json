@@ -827,5 +827,18 @@
       "banner": "media/games/black-banner.webp",
       "icon": "media/games/black-logo.webp"
     }
+  },
+  {
+    "name": "Call of Duty: Black Ops 2",
+    "developer": "Treyarch",
+    "releaseDate": "13/11/2012",
+    "beat": {
+      "date": "10/2026",
+      "hours": "4.7"
+    },
+    "media": {
+      "banner": "media/games/call-of-duty-black-ops-2-banner.webp",
+      "icon": "media/games/call-of-duty-black-ops-2-logo.webp"
+    }
   }
 ]
